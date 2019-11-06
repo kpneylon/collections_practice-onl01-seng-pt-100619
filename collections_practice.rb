@@ -37,7 +37,13 @@ def find_a(array)
   end  
 end  
 
-
+def sum_array(array)
+  counter = 0
+  array.each do |number|
+    counter += number
+  end 
+  counter
+end  
 
 
 
